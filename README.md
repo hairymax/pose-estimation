@@ -1,6 +1,8 @@
 # pose-estimation
 YOLOv7 для детекций скелета человека
 
+https://user-images.githubusercontent.com/6792913/227441262-78d85795-e8ca-467d-8ce9-f346adcd1976.mp4
+
 Для работы с кодом этого репозитория необходимо сначала склонировать себе код [репозитория `yolov7`](https://github.com/WongKinYiu/yolov7)
 
 ```sh
@@ -17,6 +19,3 @@ pip install -r requirements.txt
 ```sh
 python video_pose.py -i path/to/original_video.mp4 -o path/to/processed_video.mp4 
 ```
-
-Пример:
-https://www.youtube.com/watch?v=5-cnUadP2YA 
