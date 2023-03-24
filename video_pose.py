@@ -1,3 +1,4 @@
+import argparse
 import cv2
 import torch
 import numpy as np
@@ -6,7 +7,6 @@ from models.experimental import attempt_load
 from utils.datasets import letterbox
 from utils.general import non_max_suppression_kpt, xywh2xyxy
 from utils.plots import output_to_keypoint, plot_one_box, plot_skeleton_kpts
-import argparse
 
 # Path to the weights file
 POSE_WEIGHTS = 'weights/yolov7-w6-pose.pt'
